@@ -1,0 +1,23 @@
+---
+import Layout from "../layout/layout.astro";
+import Article from "../components/article.astro";
+import Sidebar from "../components/sidebar.astro";
+import Calendar from "../components/calendar.astro";
+const title = "Aussie Calendar";
+---
+
+<Layout title={title}>
+  <div class="w-full flex justify-center bg-neutral-50">
+    <div class="w-[70rem] flex py-24">
+      <div class="w-9/12">
+        <Article />
+        <!-- Kalender per tahun -->
+        <div class="flex gap-8 flex-wrap w-full pt-10">
+          <Calendar />
+        </div>
+        <!-- End Kalender per tahun -->
+      </div>
+      <Sidebar />
+    </div>
+  </div>
+</Layout>

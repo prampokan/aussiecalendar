@@ -1,0 +1,285 @@
+---
+import january2024 from "../data/january2024.json";
+import february2024 from "../data/february2024.json";
+import march2024 from "../data/march2024.json";
+const days = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
+---
+
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{january2024[1].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      january2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "January" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{february2024[4].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      february2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "February" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
+<div class="w-60">
+  <h1 class="font-medium pl-2 w-full">{march2024[5].month}</h1>
+  <div class="w-full grid grid-cols-7 text-sm">
+    {
+      days.map((day) => {
+        return <h1 class="h-10 grid place-content-center">{day}</h1>;
+      })
+    }
+  </div>
+  <div class="w-full grid grid-cols-7">
+    {
+      march2024.map((item) => {
+        return (
+          <div
+            class={`h-10 border-t grid place-content-center ${item.isHoliday === true ? "bg-blue-500 text-white" : ""} ${item.month !== "March" ? "text-neutral-400" : ""} `}
+          >
+            <h1>{item.date}</h1>
+          </div>
+        );
+      })
+    }
+  </div>
+</div>
